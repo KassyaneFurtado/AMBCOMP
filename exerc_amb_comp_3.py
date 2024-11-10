@@ -2,7 +2,7 @@
 
 print('CONSTRUA UM TUPLA CONTENDO OS SEGUINTES AMINOÁCIDOS: A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y')
 
-t = 'A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y'
+t = t = ('A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y')
 print('Tupla criada:',t)
 
 print('A- CONTE E IMPRIMA O NÚMERO DE ELEMENTOS CONTIDOS NA TUPLA CRIADA:')
@@ -14,11 +14,11 @@ tupla_in = 'S' in t
 print(tupla_in)
 
 print('C- CRIE UMA SEGUNDA TUPLA CONTENDO OS ELEMENTOS PROLINA (P), GLICINA (G), ASPARAGINA (N), TIROSINA (Y), VALINA (V) E TRIPTOFANO (W):')
-t2 = 'P, G, N, Y, V, W'
+t2 = ('P', 'G', 'N', 'Y', 'V', 'W')
 print(t2)
 
 print('D- SOME AS TUPLAS CONSTRUÍDAS E IMPRIMA O RESULTADO:')
-tupla_some = t +','+ t2
+tupla_some = t + t2
 print(tupla_some)
 
 print('E- CONTE A OCORRÊNCIA DOS ELEMENTOS GLICINA (G), ASPARAGINA (N) E CISTEÍNA (C):')
