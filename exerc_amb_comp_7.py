@@ -11,22 +11,37 @@ Tabela1 = {
 }
 
 Tabela1 = pd.DataFrame(Tabela1)
-print(Tabela1)
 print("Glicina número 1")
+print(Tabela1)
 
 Tabela2 = {
     "ATOMO": ["N", "CA", "C", "O"],
-    "x": [107.670, 108.477, 109.513,110.667],
+    "x": [107.670, 108.477, 109.513, 110.667],
     "y": [101.359, 100.389, 101.011, 100.572],
-    "z": [70.074, 69.362,68.450, 68.425]
+    "z": [70.074, 69.362, 68.450, 68.425]
 }
 
 Tabela2 = pd.DataFrame(Tabela2)
-print(Tabela2)
 print("Glicina número 2")
+print(Tabela2)
+
 
 print("Equação 1 - RMSD (Considere N=4 que é o número de átomos)")
 
+# para entender RMSD: https://www.youtube.com/watch?v=fB4wvEo36Hs
+#pega os atomos de uma tabela e verifica a diferença e depois faz a potenciação, soma e calcula a raiz quadrada
+
+N = len(Tabela1)
+
+for i in range(N):
+    distanciaX = Tabela1["x"][i] - Tabela2["x"][i]
+    distanciaY = Tabela1["y"][i] - Tabela2["y"][i]
+    distanciaZ = Tabela1["z"][i] - Tabela2["z"][i]
+
+soma_dif = (distanciaX**2) + (distanciaZ**2) + (distanciaY**2)
+
+rmsd = (soma_dif / N)**0.5
+print("O RMSD é igual a:", rmsd)
 
 
 print("2. Em biologia molecular, o conteúdo GC (guanina e citosina) é o percentual de bases nitrogenadas em uma molécula de DNA ou RNA que são guanina ou citosina (dentre as quatro bases possíveis). Para as seguintes sequências calcule usando os operadores vistos em aula o percentual de conteúdo GC, imprimindo os resultados:")

@@ -1,1 +1,43 @@
 #ESTRUTURAS DE REPETIÇÃO
+'''
+1. Escreva um programa que calcule e escreva a tabela de graus Centígrados em função dos graus Farenheit 
+que variem entre 1 e 150 de 1 em 1 conforme a fórmula a seguir 
+2. Utilizando as estruturas de repetição, verifique se as seguintes sequências são uma sequência de DNA {A, 
+G, T, C}, RNA {U, C, A, G}, PROTEÍNA {A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y} ou nenhuma 
+delas (nesse caso, imprima as letras que não fazem parte do alfabeto): 
+ATCDLASKWNWNHTLCAAHCIARRYRGGYCNSKAVCVCRN
+TATTAACCGGGTTTAAACTAGCATGCATGATTAACCAGTACATCTTTT
+ATCBDLASKWXWNHTLCAAHCIARRYRGGYCNSJAVCVCRN
+3. Utilizando as estruturas de repetição, gere e imprima a sequência complemento reverso da seguinte 
+sequência de DNA: 
+TATTAACCGGGTTTAAACTAGCATGCATGATTAACCAGTACATCTTTT
+4. Escreva um programa que calcule o fatorial de um número recebido como entrada. Lembre-se que o 
+fatorial de um número é igual ao número multiplicado n sucessivamente por n-1, n-2, .. 1. Exemplo: fat(6) = 6 
+x 5 x 4 x 3 x 2 x 1 = 720. 
+5. Escreva um programa que liste a tabuada (produtos) dos números de 1 a 15. Exemplo: tabuada do 3 
+3 x 0 = 0 
+3 x 1 = 3 
+3 x 2 = 6 
+3 x 3 = 9 
+3 x 4 = 12 
+3 x 5 = 15 
+3 x 6 = 18 
+3 x 7 = 21 
+3 x 8 = 24 
+3 x 9 = 27 
+3 x 10 = 30
+6. Considerando a seguinte sequência e tabela de massas (Tabela 1), escreva um programa em Python que 
+calcule a massa molar da sequência: 
+VRSSSRTPSDKPVAHVVANPQAEGQLQWLNRRANALLANGVELRDNQLVVPSEGLYLIYSQVLFKGQGCPSTHVLLTHT
+ISRIAVSYQTKVNLLSAIKSPCQRETPEGAEAKPWYEPIYLGGVFQLEKGDRLSAEINRPDYLLFAESGQVYFGIIAL
+7. Considerando a Tabela 2 que contem dados de defensinas de plantas, obtenha / calcule e imprima:
+A) a menor sequência e seu comprimento 
+B) a maior sequência e seu comprimento 
+C) a média entre os comprimentos das sequências 
+D) a mediana entre os comprimentos das sequências
+8. Considerando as assinaturas moleculares (fingerprints) hipotéticas das tabelas abaixo, calcule a distância 
+de Tanimoto conforme a equação a seguir:
+Onde = 2 será calculado usando o operador AND entre cada posição da assinatura gerando o vetor 
+abaixo: 
+e = 9 será calculado usando o operador OR entre cada posição da assinatura gerando o vetor abaixo
+Dica: Você pode considerar 0 sendo False e 1 sendo True.'''
